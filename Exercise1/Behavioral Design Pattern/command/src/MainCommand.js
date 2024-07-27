@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var Light_1 = require("./Light");
+var LightOnCommand_1 = require("./LightOnCommand");
+var LightOffCommand_1 = require("./LightOffCommand");
+var RemoteControl_1 = require("./RemoteControl");
+var light = new Light_1.Light();
+var lightOn = new LightOnCommand_1.LightOnCommand(light);
+var lightOff = new LightOffCommand_1.LightOffCommand(light);
+var remote = new RemoteControl_1.RemoteControl();
+remote.setCommand(lightOn, lightOff);
+remote.pressOnButton();
+remote.pressOffButton();
+remote.pressUndoButton();
