@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Circle_1 = require("./Circle");
+const CompositeGraphic_1 = require("./CompositeGraphic");
+const circle1 = new Circle_1.Circle();
+const circle2 = new Circle_1.Circle();
+const compositeGraphic = new CompositeGraphic_1.CompositeGraphic();
+compositeGraphic.add(circle1);
+compositeGraphic.add(circle2);
+compositeGraphic.draw();
