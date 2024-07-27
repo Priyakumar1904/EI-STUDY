@@ -1,0 +1,17 @@
+{
+  "name": "astronaut-scheduler",
+  "version": "1.0.0",
+  "description": " A console-based application that helps astronauts organize their daily schedules",
+  "main": "index.js",
+  "scripts": {
+  "start": "ts-node src/index.ts"
+},
+  "keywords": [],
+  "author": "Haripriya",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}

@@ -1,0 +1,4 @@
+[ERROR] 2024-07-25T17:53:51.175Z: Time format is incorrect. Please use HH:MM AM/PM.
+[ERROR] 2024-07-25T17:54:15.645Z: End time must be after start time.
+[ERROR] 2024-07-25T17:57:29.546Z: End time must be after start time.
+[ERROR] 2024-07-25T17:59:54.191Z: Priority must be one of the following: Low, Medium, High.
